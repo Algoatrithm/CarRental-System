@@ -41,7 +41,7 @@ class Main:
         main_frame.columnconfigure(0, weight=1)
         main_frame.columnconfigure(1, weight=2)
         main_frame.rowconfigure(0, weight=1)
-
+aSVEGb g
         # ===============================
         # Left Panel – Vehicle Selection
         # ===============================
@@ -74,8 +74,7 @@ class Main:
         for vehicle in available_vehicles:
             column = (vehicle["vehicle"], vehicle["id"], vehicle["brand"], vehicle["model"], vehicle["status"])
             vehicle_tree.insert('', 'end', values=column)
-            
-asgadg
+        
 
         # ===============================
         # Bottom Status Bar (optional)
