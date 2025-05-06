@@ -75,7 +75,7 @@ class Main:
             column = (vehicle["vehicle"], vehicle["id"], vehicle["brand"], vehicle["model"], vehicle["status"])
             vehicle_tree.insert('', 'end', values=column)
             
-
+asgadg
 
         # ===============================
         # Bottom Status Bar (optional)
